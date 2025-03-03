@@ -3,54 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabla de Mensajes</title>
+    <style>
+        
+    body {
+        font-family: Arial, sans-serif;
+    }
+    table {
+        width: 60%;
+        border-collapse: collapse;
+        margin: 20px auto;
+        border: 2px solid black;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: left;
+    }
+    th {
+        text-align: center;
+        font-size: 18px;
+    }
+    .profile-img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+    .status {
+        text-align: right;
+        font-size: 14px;
+        font-weight: bold;
+    }
+</style>
 </head>
 <body>
-    <br><center>
-        <h2>Tabla 5</h2>
-        <table border="1" align="center"> 
+    <br>
+    <center>
+        <h2>Tabla 4</h2></center>
+    <table>
         <tr>
-            <td><img src="images/talk.jpg" alt="talk" width="40"> </td>
-            <th colspan="7" class="title">Hit me up</th>
-
+            <th colspan="4">
+                <img src="images/talk.jpg" alt="Chat" width="50"> Hit me up
+            </th>
         </tr>
         <tr>
-            <td><img src="images/userman.png" alt="man" width="40"> </td>
-            
-               <td>Emir Çelik <br><small>Last message</small> </td>  
-            <td>8:20 a.m<br><small><img src="images/ckeck.png" alt="ckeck"width="10"></small></td>
-            <td><img src="images/alarma.png" alt="alarma" width="20"> </td>
+            <td><img src="images/userman.png" alt="User" class="profile-img"></td>
+            <td><strong>Emir Çelik</strong><br>Last message</td>
+            <td class="status">8:20 a.m. <br><img src="images/ckeck.png" alt="Check" class="icon"> </td>
+            <td><img src="images/alarma.png" alt="Alarm" class="icon"></td>
         </tr>
         <tr>
-            <td><img src="images/user woman.png" alt="Aylin" class="profile-img" width="30"></td>
-            <td>Aylin Yildiz <br><small>Last message</small></td>
-            <td>8:15 a.m.<br><small><img src="images/ckeck.png" alt="ckeck"width="10"></small></td>
-            <td class="icons">
-                <img src="images/alarma.png" alt="Alarma" class="icon"width="20">
-            </td>
+            <td><img src="images/user woman.png" alt="User" class="profile-img"></td>
+            <td><strong>Aylin Yıldız</strong><br>Last message</td>
+            <td class="status">8:15 a.m. <br> <img src="images/ckeck.png" alt="Check" class="icon"></td>
+            <td><img src="images/apagado.png" alt="Alarm" class="icon"></td>
         </tr>
         <tr>
-            <td><img src="images/user woman.png" alt="man" width="30"> </td>
-            
-               <td>Elif Demir <br><small>Last message</small> </td>  
-            <td>7:20 a.m<br><small><img src="images/ckeck.png" alt="ckeck"width="10"></small></td>
-            <td><img src="images/alarma.png" alt="alarma" width="20"> </td>
+            <td><img src="images/userman.png" alt="User" class="profile-img"></td>
+            <td><strong>Burak Arslan</strong><br>Last message</td>
+            <td class="status">8:00 a.m. <br><img src="images/ckeck.png" alt="Check" class="icon"> </td>
+            <td><img src="images/apagado.png" alt="Alarm" class="icon"></td>
         </tr>
         <tr>
-            <td><img src="images/user woman.png" alt="man" width="30"> </td>
-            
-               <td>Zeynep Kaya <br><small>Last message</small> </td>  
-            <td>7:00 a.m<br><small><img src="images/ckeck.png" alt="ckeck"width="10"></small></td>
-            <td><img src="images/alarma.png" alt="alarma" width="20"> </td>
+            <td><img src="images/user woman.png" alt="User" class="profile-img"></td>
+            <td><strong>Elif Demir</strong><br>Last message</td>
+            <td class="status">7:20 a.m. <img src="images/ckeck.png" alt="Alarm" class="icon"></td>
+            <td><img src="images/alarma.png" alt="Alarm" class="icon"></td>
         </tr>
         <tr>
-            <td><img src="images/userman.png" alt="man" width="40"> </td>
-            
-               <td>Can Özkan <br><small>Last message</small> </td>  
-            <td>6:30 a.m<br><small><img src="images/ckeck.png" alt="ckeck"width="10"></small></td>
-            <td><img src="images/alarma.png" alt="alarma" width="20"> </td>
+            <td><img src="images/user woman.png" alt="User" class="profile-img"></td>
+            <td><strong>Zeynep Kaya</strong><br>Last message</td>
+            <td class="status">7:00 a.m. <img src="images/ckeck.png" alt="Alarm" class="icon"></td>
+            <td><img src="images/apagado.png" alt="Alarm" class="icon"></td>
+        </tr>
+        <tr>
+            <td><img src="images/userman.png" alt="User" class="profile-img"></td>
+            <td><strong>Can Özkan</strong><br>Last message</td>
+            <td class="status">6:30 a.m. <img src="images/ckeck.png" alt="Alarm" class="icon"></td>
+            <td><img src="images/alarma.png" alt="Alarm" class="icon"></td>
         </tr>
     </table>
-</center>
 </body>
 </html>
